@@ -2,10 +2,18 @@
 
 Schritte:
 
+
+---
+
+
 `git clone https://github.com/kevinskyba/BHTB-MIM-12-W20-DVCS.git`
 `git add .`
 `git commit -m "Added new steps"`
 `git push`
+
+
+---
+
 
 `git diff HEAD^^ README.md`:
 ```
@@ -28,4 +36,15 @@ index 136d37b..1acf039 100644
 ```
 `git add README.md`
 `git commit -m "Added results of diffing"`
+`git push`
+
+
+---
+
+
+`git branch some-feature`
+`git checkout some-feature`
+`echo test > test.txt`
+`git add .`
+`git commit -m "Added test.txt to some-feature branch"`
 `git push`
