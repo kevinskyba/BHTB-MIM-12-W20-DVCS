@@ -48,3 +48,11 @@ index 136d37b..1acf039 100644
 `git add .`
 `git commit -m "Added test.txt to some-feature branch"`
 `git push`
+
+
+---
+
+
+`git checkout main`
+`git merge some-feature`
+`git push`
