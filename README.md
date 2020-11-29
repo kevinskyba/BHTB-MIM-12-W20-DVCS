@@ -55,4 +55,6 @@ index 136d37b..1acf039 100644
 
 `git checkout main`
 `git merge some-feature`
+`git add .`
+`git commit -m "Added results of merging"`
 `git push`
